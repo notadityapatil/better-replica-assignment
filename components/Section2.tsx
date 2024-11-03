@@ -98,7 +98,7 @@ export default function Section2() {
     },
   ];
 
-  var currentContent = Content[contentIndex].sectionContent;
+  const currentContent = Content[contentIndex].sectionContent;
 
   return (
     <div>
@@ -108,7 +108,8 @@ export default function Section2() {
             <h2 className="font-bold text-textPrimary leading-heading m-0 p-0  md:text-2xl md:tracking-tight w-full max-w-lg !text-3xl tracking-tight">
               Got questions?
               <br />
-              We've got answers
+              We&apos;ve got answers
+
             </h2>
             <div className="flex gap-3  lg:gap-6  ">
               {Content.map((section, index) => (
@@ -124,7 +125,7 @@ export default function Section2() {
           <div className="flex flex-col w-full gap-3 justify-center items-stretch">
 
             {/* card 1 and 2 */}
-            <div className="flex md:flex-row  flex-col gap-3 w-full justify-center items-center">
+            <div className="flex md:flex-row  flex-col gap-3 w-full justify-center items-stretch">
 
                 {/* card 1 */}
               <div className="flex md:flex-col flex-row justify-between md:w-1/4 w-full bg-successBackground rounded-lg gap-3 p-3">
@@ -214,7 +215,7 @@ export default function Section2() {
             </div>
 {/* card 3 and 4 */}
 
-            <div className="flex md:flex-row  flex-col gap-3 w-full justify-center items-center">
+            <div className="flex md:flex-row  flex-col gap-3 w-full justify-center items-stretch">
 {/* card 3 */}
               <div className="flex flex-col md:w-3/4 bg-successBackground w-full rounded-lg">
                 <div className="flex flex-row gap-8">

@@ -22,7 +22,7 @@ export default function Hero() {
           <div className="w-full md:w-auto">
             <a
               className="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base  leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 bg-graphTertiary text-interactiveForegroundInversePrimary hover:bg-accentPrimary hover:text-interactiveForegroundPrimary h-10 px-8 py-3 mt-lg w-full md:mt-none md:w-fit"
-              href="/start"
+              href="/start-page"
             >
               Start my approval
             </a>

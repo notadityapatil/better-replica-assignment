@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import {useRef, useState } from "react";
 import Link from 'next/link'
 
 
@@ -267,6 +267,10 @@ export default function Navbar({ style }: NavbarProps) {
 
 function BetterLogo() {
   return (
+
+    <Link
+    href={"/"}
+    >
     <svg
       role="img"
       className="icon icon-LogoBetter2021"
@@ -282,6 +286,8 @@ function BetterLogo() {
         fill="currentColor"
       ></path>
     </svg>
+
+    </Link>
   );
 }
 

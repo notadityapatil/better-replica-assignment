@@ -3,7 +3,7 @@
 import Footer from "@/components/Footer";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect} from "react";
 
 export default function StartPage() {
 
@@ -107,13 +107,13 @@ export default function StartPage() {
 
       <div className="h-[120vh] bg-white text-black">
         <h1 className="text-2xl font-bold text-center mt-12">
-          Hi, I'm Betsy!
+          Hi, I&apos;m Betsy!
           <br />
           What can I help you with?
         </h1>
 
         <div className="flex flex-col items-center justify-center gap-5 mt-6">
-          <div className="flex flex-row items-center justify-start px-7 p-4 h-12 border border-gray-400 w-1/2  rounded-lg">
+          <div className="flex flex-row items-center justify-start px-7 p-4 h-12 border border-gray-400 w-1/2  rounded-lg hover:border-[#017848] hover:border-2 transition-all duration-100 hover:text-[#017848]">
             <div>
               <svg
                 fill="transparent"
@@ -139,7 +139,7 @@ export default function StartPage() {
             </div>
           </div>
 
-          <div className="flex flex-row items-center justify-start px-7 p-4 h-12 border border-gray-400 w-1/2  rounded-lg">
+          <div className="flex flex-row items-center justify-start px-7 p-4 h-12 border border-gray-400 w-1/2  rounded-lg hover:border-[#017848] hover:border-2 transition-all duration-100 hover:text-[#017848]">
             <div>
               <svg
                 fill="transparent"
@@ -169,7 +169,7 @@ export default function StartPage() {
             </div>
           </div>
 
-          <div className="flex flex-row items-center justify-start px-7 p-4 h-12 border border-gray-400 w-1/2  rounded-lg">
+          <div className="flex flex-row items-center justify-start px-7 p-4 h-12 border border-gray-400 w-1/2  rounded-lg hover:border-[#017848] hover:border-2 transition-all duration-100 hover:text-[#017848]">
             <div>
               <svg
                 fill="transparent"
@@ -217,7 +217,7 @@ export default function StartPage() {
 
         <div className="mt-10 w-full flex justify-center items-center">
           <div className="w-1/2  bg-green-100 rounded-lg flex text-xs p-3 flex-col items-center justify-center gap-5 text-gray-500">
-            <h1 className="">After a few questions, you'll unlock:</h1>
+            <h1 className="">After a few questions, you&apos;ll unlock:</h1>
 
             <div className="flex flex-col gap-3">
               <div className="flex flex-row gap-2 items-center">

@@ -10,7 +10,6 @@ export default function Mortgage() {
   const [downPayment, setDownPayment] = useState(1000);
   const [interestRate, setInterestRate] = useState(3.5);
   const [lengthOfLoan, setLengthOfLoan] = useState(30);
-  const [monthlyPayment, setMonthlyPayment] = useState(0);
   const [propertyTax, setPropertyTax] = useState(0);
   const [insurance, setInsurance] = useState(0);
   const [hoaFees, setHoaFees] = useState(0);
@@ -66,7 +65,6 @@ export default function Mortgage() {
       estimatedHoaFees +
       estimatedUtilities;
 
-    setMonthlyPayment(parseFloat(principalAndInterest.toFixed(2)));
     setTotalMonthlyCost(parseFloat(totalCost.toFixed(2)));
   };
 
@@ -376,95 +374,7 @@ export default function Mortgage() {
           </div>
         </div>
       </div>
-      {/* <div className="mt-10 px-14">
-        <div className="flex flex-row justify-between">
-          <div className="flex flex-col">
-            <div>Monthly Payment Breakdown</div>
-
-            <h1 className="text-3xl mt-3">
-              {`${totalMonthlyCost.toLocaleString("en-US", {
-                style: "currency",
-                currency: "USD",
-              })}/mo`}
-            </h1>
-          </div>
-
-          <div className="flex flex-col gap-6 items-start">
-            <div className="flex flex-row items-center gap-32">
-              <div>Principal & interest</div>
-              <div>
-                {`${monthlyPayment.toLocaleString("en-US", {
-                  style: "currency",
-                  currency: "USD",
-                })}`}
-              </div>
-            </div>
-
-            <div className="flex flex-row items-center gap-32">
-              <div>Property Tax</div>
-              <div>
-                <input
-                  type="number"
-                  value={propertyTax}
-                  onChange={(e) => setPropertyTax(Number(e.target.value))}
-                  id="property-tax"
-                  placeholder=" "
-                  required
-                  className="block w-32 h-10 px-2 pt-4 text-lg border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-              </div>
-            </div>
-
-            <div className="flex flex-row items-center gap-32">
-              <div>Homeowner's insurance</div>
-              <div>
-                <input
-                  type="number"
-                  value={insurance}
-                  onChange={(e) => setPropertyTax(Number(e.target.value))}
-                  id="insurance"
-                  placeholder=" "
-                  required
-                  className="block w-32 h-10 px-2 pt-4 text-lg border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-              </div>
-            </div>
-
-            <div className="flex flex-row items-center gap-32">
-              <div>HOA Fees</div>
-              <div>
-                <input
-                  type="number"
-                  value={hoaFees}
-                  onChange={(e) => setPropertyTax(Number(e.target.value))}
-                  id="hoa-fees"
-                  placeholder=" "
-                  required
-                  className="block w-32 h-10 px-2 pt-4 text-lg border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-              </div>
-            </div>
-
-            <div className="flex flex-row items-center gap-32">
-              <div>Utilities</div>
-              <div>
-                <form action="">
-                <input
-                  type="number"
-                  value={utilities}
-                  onChange={(e) => setPropertyTax(Number(e.target.value))}
-                  id="utilities"
-                  placeholder=" "
-                  required
-                  className="block w-32 h-10 px-2 pt-4 text-lg border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-                </form>
-              </div>
-            </div> */}
-
-      {/* </div> */}
-      {/* </div> */}
-      {/* </div> */}
+      
 
       <Footer />
     </div>

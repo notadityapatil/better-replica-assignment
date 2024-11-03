@@ -1,5 +1,7 @@
 import React from "react";
 
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <div className="m-auto px-6 py-6 md:px-10 lg:px-16 xl:px-20 2xl:px-40">
@@ -26,8 +28,8 @@ export default function Footer() {
           </p>
           <ul className="mt-6 space-y-4">
             <li className="mt-4">
-              <a href="/mortgage/">
-                <img
+              <div >
+                <Image
                   alt="better mortgage homepage"
                   loading="lazy"
                   width="150"
@@ -36,15 +38,15 @@ export default function Footer() {
                   data-nimg="1"
                   src="https://media.better.com/better-com/1660240096238/better-mortgage-logo.svg"
                 />
-              </a>
+              </div>
               <p className="font-normal leading-body m-0 p-0 text-left text-textPrimary text-sm mt-3">
                 We can’t wait to say “Welcome home.” Apply 100% online, with
                 expert customer support.
               </p>
             </li>
             <li>
-              <a href="/b/realestate/">
-                <img
+              <div >
+                <Image
                   alt="better real estate page"
                   loading="lazy"
                   width="160"
@@ -53,15 +55,15 @@ export default function Footer() {
                   data-nimg="1"
                   src="https://media.better.com/better-com/1660240096238/better-real-estate-logo.svg"
                 />
-              </a>
+              </div>
               <p className="font-normal leading-body m-0 p-0 text-left text-textPrimary text-sm mt-3">
                 Connect with a local Better Real Estate Partner Agent to find
                 out all the ways you can save.
               </p>
             </li>
             <li>
-              <a href="https://www.bettercover.com/">
-                <img
+              <div >
+                <Image
                   alt="better cover page"
                   loading="lazy"
                   width="115"
@@ -70,15 +72,15 @@ export default function Footer() {
                   data-nimg="1"
                   src="https://media.better.com/better-com/1660240096238/better-cover-logo.svg"
                 />
-              </a>
+              </div>
               <p className="font-normal leading-body m-0 p-0 text-left text-textPrimary text-sm mt-3">
                 Shop, bundle, and save on insurance coverage for home, auto,
                 life, and more.
               </p>
             </li>
             <li>
-              <a href="/content/home-inspection-checklist/">
-                <img
+              <div >
+                <Image
                   alt="better inspect page"
                   loading="lazy"
                   width="130"
@@ -87,15 +89,15 @@ export default function Footer() {
                   data-nimg="1"
                   src="https://media.better.com/better-com/1660240096238/better-inspect-logo.svg"
                 />
-              </a>
+              </div>
               <p className="font-normal leading-body m-0 p-0 text-left text-textPrimary text-sm mt-3">
                 Get free repair estimates, 24-hour turnarounds on reports, and
                 rest easy with our 100-day inspection guarantee.
               </p>
             </li>
             <li>
-              <a href="/title/">
-                <img
+              <div >
+                <Image
                   alt="better inspect page"
                   loading="lazy"
                   width="240"
@@ -104,7 +106,7 @@ export default function Footer() {
                   data-nimg="1"
                   src="https://media.better.com/better-com/1660240096238/better-settlement-services-logo.svg"
                 />
-              </a>
+              </div>
               <p className="font-normal leading-body m-0 p-0 text-left text-textPrimary text-sm mt-3">
                 Get transparent rates when you shop for title insurance all in
                 one convenient place.
@@ -118,92 +120,92 @@ export default function Footer() {
           </h4>
           <ul className="mt-2 space-y-4 md:mt-6">
             <li>
-              <a
-                href="/how-much-house-can-i-afford"
+              <div
+                
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
               >
                 Home affordability calculator
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/mortgage-calculator/"
+                
               >
                 Mortgage calculator
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/free-mortgage-calculator/"
+                
               >
                 Free mortgage calculator
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/mortgage-calculator-with-taxes/"
+                
               >
                 Mortgage calculator with taxes
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/mortgage-calculator-with-pmi/"
+                
               >
                 Mortgage calculator with PMI
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/rent-vs-buy-calculator/"
+                
               >
                 Rent vs buy calculator
-              </a>
+              </div>
             </li>
             <li>
-              <a
-                href="/heloc-calculator"
+              <div
+                
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
               >
                 HELOC payment calculator
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/heloc-vs-cashout-refi-calculator/"
+                
               >
                 HELOC vs cash-out refinance calculator
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/content/buying-a-house-online/"
+                
               >
                 Buy a home
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/content/buying-and-selling-a-home-at-the-same-time/"
+                
               >
                 Sell a home
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/content/home-inspection-checklist/"
+                
               >
                 Get home inspection
-              </a>
+              </div>
             </li>
           </ul>
         </div>
@@ -213,60 +215,60 @@ export default function Footer() {
           </h4>
           <ul className="mt-2 space-y-4 md:mt-6">
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/about-us/"
+                
               >
                 About Us
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/about-us/careers/"
+                
               >
                 Careers
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/about-us/media/"
+                
               >
                 Media
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/partnerships/"
+                
               >
                 Partner With Us
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/content/"
+                
               >
                 Learning center
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/faq/"
+                
               >
                 FAQs
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="styles_hover-gradient-effect__AIX_8"
-                href="https://investors.better.com"
+                
               >
                 Investor Relations
-              </a>
+              </div>
             </li>
           </ul>
         </div>
@@ -276,36 +278,36 @@ export default function Footer() {
           </h4>
           <ul className="mt-2 space-y-4 md:mt-6">
             <li>
-              <a
+              <div
                 className="styles_hover-gradient-effect__AIX_8"
-                href="mailto:hello@better.com"
+                
               >
                 hello@better.com
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="styles_hover-gradient-effect__AIX_8"
-                href="tel:415-523-8837"
+                
               >
                 415-523-8837
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/faq/"
+                
               >
                 FAQ
-              </a>
+              </div>
             </li>
             <li>
-              <a
-                href="/glossary"
+              <div
+                
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
               >
                 Glossary
-              </a>
+              </div>
             </li>
           </ul>
           <h4 className="font-bold text-textPrimary leading-heading m-0 p-0 tracking-normal w-auto text-base md:text-lg mt-6">
@@ -313,52 +315,46 @@ export default function Footer() {
           </h4>
           <ul className="mt-2 space-y-4 md:mt-6">
             <li>
-              <a
+              <div
                 className="styles_hover-gradient-effect__AIX_8"
-                href="http://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/330511"
               >
                 NMLS Consumer Access
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/about-us/privacy-policy/"
               >
                 Privacy Policy
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/about-us/terms-of-use/"
               >
                 Terms of Use
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/about-us/licensing-disclosure/"
               >
                 Disclosures &amp; Licensing
-              </a>
+              </div>
             </li>
             <li>
-              <a
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                href="/about-us/affiliated-business/"
               >
                 Affiliated Business
-              </a>
+              </div>
             </li>
             <li>
-              <a
-                href="/browser-support"
+              <div
                 className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
               >
                 Browser Disclaimer
-              </a>
+              </div>
             </li>
             <li>
               <div className="mt-8 flex gap-4">
@@ -407,11 +403,9 @@ export default function Footer() {
       </div>
       <div className="mt-12 flex gap-x-4 md:mt-60">
         <div>
-          <a
+          <div
             aria-label="Facebook"
-            href="https://www.facebook.com/better/"
             rel="noopener noreferrer"
-            target="_blank"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -427,14 +421,13 @@ export default function Footer() {
             >
               <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
             </svg>
-          </a>
+          </div>
         </div>
         <div>
-          <a
+          <div
             aria-label="Instagram"
-            href="https://www.instagram.com/betterdotcom/"
             rel="noopener noreferrer"
-            target="_blank"
+            
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -452,14 +445,13 @@ export default function Footer() {
               <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
               <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
             </svg>
-          </a>
+          </div>
         </div>
         <div>
-          <a
+          <div
             aria-label="Linkedin"
-            href="https://www.linkedin.com/company/betterdotcom/"
             rel="noopener noreferrer"
-            target="_blank"
+            
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -477,7 +469,7 @@ export default function Footer() {
               <rect width="4" height="12" x="2" y="9"></rect>
               <circle cx="4" cy="4" r="2"></circle>
             </svg>
-          </a>
+          </div>
         </div>
       </div>
       <div className="mt-12">
@@ -493,12 +485,11 @@ export default function Footer() {
           from the customer. Better Mortgage does not guarantee that initial
           underwriting approval will result in a final underwriting approval.
           See
-          <a
-            className="font-normal underline focus:outline-interactivePrimary focus:outline-1 focus:outline-offset-[theme(spacing.2xs)] hover:text-interactivePrimary text-inherit"
-            href="/with/one-day-mortgage-terms/"
+          <div
+            className="font-normal underline focus:outline-interactivePrimary focus:outline-1 hover:text-interactivePrimary text-inherit"
           >
             One Day Mortgage™ Terms and Conditions.
-          </a>
+          </div>
         </p>
         <p className="font-normal leading-body m-0 p-0 text-left text-textPrimary text-xs mt-3">
           <sup>2</sup>Better Mortgage’s One Day HELOC™ promotion offers
@@ -511,12 +502,11 @@ export default function Footer() {
           pre-closing and which may trigger additional required documentation
           from the customer. Better Mortgage does not guarantee that initial
           underwriting approval will result in final underwriting approval. See
-          <a
-            className="font-normal underline focus:outline-interactivePrimary focus:outline-1 focus:outline-offset-[theme(spacing.2xs)] hover:text-interactivePrimary text-inherit"
-            href="/b/better-mortgage-one-day-heloc-promotion-terms-and-conditions/"
+          <div
+            className="font-normal underline focus:outline-interactivePrimary focus:outline-1  hover:text-interactivePrimary text-inherit"
           >
             One Day Heloc™ Terms and Conditions.
-          </a>
+          </div>
         </p>
         <p className="font-normal leading-body m-0 p-0 text-left text-textPrimary text-xs mt-3">
           <sup>3</sup>Assumes borrowers are eligible for the Automated Valuation
@@ -543,13 +533,12 @@ export default function Footer() {
           Center, 175 Greenwich Street, 57th Floor, New York, NY 10007. Loans
           made or arranged pursuant to a California Finance Lenders Law License.
           Not available in all states. Equal Housing Lender.
-          <a
+          <div
             className="underline"
             data-qa="nmls-link"
-            href="http://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/330511"
           >
             NMLS Consumer Access
-          </a>
+          </div>
         </p>
         <p className="font-normal leading-body m-0 p-0 text-left text-textPrimary text-xs mt-4">
           Better Real Estate, LLC dba BRE, Better Home Services, BRE Services,
@@ -558,45 +547,42 @@ export default function Footer() {
           Inc., is a licensed real estate brokerage and maintains its corporate
           headquarters at 325-41 Chestnut Street, Suite 826, Philadelphia, PA
           19106. Here is a full listing of Better Real Estate, LLC’s
-          <a className="underline" href="/with/better-realestate-license/">
+          <div className="underline" >
             license numbers
-          </a>
+          </div>
           . Better Real Estate, LLC provides access to real estate brokerage
           services via its nationwide network of partner brokerages and real
           estate agents (“Better Real Estate Partner Agents”). Equal Housing
           Opportunity. All rights reserved.
         </p>
         <p className="font-normal leading-body m-0 p-0 text-left text-textPrimary text-xs mt-4">
-          <a
+          <div
             className="underline"
-            href="https://www.dos.ny.gov/licensing/docs/FairHousingNotice_new.pdf"
+            
           >
             New York State Housing and Anti-Discrimination Notice
-          </a>
+          </div>
         </p>
         <p className="font-normal leading-body m-0 p-0 text-left text-textPrimary text-xs mt-4">
-          <a
+          <div
             className="underline"
-            href="https://media.better.com/pdfs/NYStandardizedOperatingProcedures.pdf"
           >
             New York Standard Operating Procedures
-          </a>
+          </div>
         </p>
         <p className="font-normal leading-body m-0 p-0 text-left text-textPrimary text-xs mt-4">
           Texas Real Estate Commission:{" "}
-          <a
+          <div
             className="underline"
-            href="https://www.har.com/mhf/terms/dispBrokerInfo?sitetype=aws&amp;cid=645736"
           >
             Information About Brokerage Services
-          </a>{" "}
+          </div>{" "}
           |
-          <a
+          <div
             className="underline"
-            href="https://www.trec.texas.gov/sites/default/files/pdf-forms/CN%201-4-1_1.pdf"
           >
             Consumer Protection Notice
-          </a>
+          </div>
         </p>
         <p className="font-normal leading-body m-0 p-0 text-left text-textPrimary text-xs mt-4">
           Better Settlement Services, LLC. 325-41 Chestnut Street, Suite 803,
@@ -611,9 +597,9 @@ export default function Footer() {
           Insurance quotes and policies are offered through Better Cover, LLC. A
           Pennsylvania Resident Producer Agency. License #881593. Here is a full
           listing of Better Cover, LLC’s
-          <a className="underline" href="https://www.bettercover.com/licenses">
+          <div className="underline" >
             license numbers
-          </a>
+          </div>
           .
         </p>
         <p className="font-normal leading-body m-0 p-0 text-left text-textPrimary text-xs mt-4">
