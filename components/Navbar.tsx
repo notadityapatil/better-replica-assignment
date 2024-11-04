@@ -226,7 +226,7 @@ export default function Navbar({ style }: NavbarProps) {
           <div className="flex flex-col gap-4 mt-auto">
             <a
               className="inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-bold leading-normal disabled:pointer-events-none disabled:opacity-50 transition-all ease-in-out duration-200 bg-graphTertiary text-interactiveForegroundInversePrimary hover:bg-accentPrimary hover:text-interactiveForegroundPrimary h-16 px-12 py-5 w-auto"
-              href="/start"
+              href="/start-page"
             >
               <p className="leading-body m-0 p-0 text-left text-base flex flex-col items-center text-current font-bold">
                 <span>Get started</span>
